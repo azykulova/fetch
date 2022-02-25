@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to    right, black, purple);
+    justify-content: center;
+    align-items: center;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+    column-gap: 40px;
+    
+}
+.items p{
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+    padding: 3px;
+    font-size: 18px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    border: solid yellow;
+}
+.items-alt p{
+    border: 0;
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+}
